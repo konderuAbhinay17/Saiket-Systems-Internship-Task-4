@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Form</title>
+
+    <link rel="stylesheet" href="2.style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h1>Get In Touch</h1>
+        <p class="subtitle">
+            Fill the form below and contact us.
+        </p>
+
+        <form>
+
+            <!-- Name -->
+
+            <label>Full Name</label>
+
+            <input type="text"
+                   placeholder="Enter your name"
+                   required>
+
+            <!-- Email -->
+
+            <label>Email</label>
+
+            <input type="email"
+                   placeholder="Enter your email"
+                   required>
+
+            <!-- Phone -->
+
+            <label>Phone Number</label>
+
+            <input type="tel"
+                   placeholder="Enter phone number">
+
+            <!-- Gender -->
+
+            <label>Gender</label>
+
+            <div class="radio-group">
+
+                <input type="radio"
+                       name="gender">
+
+                <span>Male</span>
+
+                <input type="radio"
+                       name="gender">
+
+                <span>Female</span>
+
+            </div>
+
+            <!-- Skills -->
+
+            <label>Skills</label>
+
+            <div class="checkbox-group">
+
+                <input type="checkbox">
+                <span>HTML</span>
+
+                <input type="checkbox">
+                <span>CSS</span>
+
+                <input type="checkbox">
+                <span>JavaScript</span>
+
+            </div>
+
+            <!-- Dropdown -->
+
+            <label>Country</label>
+
+            <select>
+
+                <option>India</option>
+
+                <option>USA</option>
+
+                <option>Canada</option>
+
+                <option>Germany</option>
+
+            </select>
+
+            <!-- Message -->
+
+            <label>Message</label>
+
+            <textarea rows="5"
+                      placeholder="Write your message">
+            </textarea>
+
+            <!-- Button -->
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
